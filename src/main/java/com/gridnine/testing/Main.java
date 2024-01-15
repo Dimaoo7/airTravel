@@ -8,7 +8,7 @@ public class Main {
 
         filter.findDepartureTillCurrentMoment();
         System.out.println();
-        filter.findSegmentsWithDateBeforeFlightDate();
+        filter.findSegmentsWithArrivalDateBeforeFlightDate();
         System.out.println();
         filter.findTransferTimeMoreTwoHours();
 
